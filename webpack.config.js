@@ -20,13 +20,13 @@ module.exports = {
 			root: '_'
 		},
 		// 'vue-router': 'vue-router',
-		// 'jquery': 'jQuery'
-	}
+		'jquery': 'jQuery'
+	},
 	plugins: [
-		new HtmlWebpackPlugin({
-			title: 'output management'
-		}),
-		new ManifestPlugin(),
+		// new HtmlWebpackPlugin({
+		// 	title: 'output management'
+		// }),
+		// new ManifestPlugin(),
 		new webpack.NamedModulesPlugin(),
 		new webpack.HotModuleReplacementPlugin()
 	],
