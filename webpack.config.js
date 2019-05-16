@@ -9,7 +9,7 @@ module.exports = {
 		filename: 'webpack-number.js',
 		// path: path.resolve(__dirname, 'dist'),
 		path: path.resolve(__dirname, 'dist'),
-		library: 'webpackNumbers',
+		library: 'mh-library-demo',
 		libraryTarget: 'umd'
 		// publicPath: '/'
 	},
