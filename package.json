@@ -2,7 +2,6 @@
   "name": "mh-first-library",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "main": "dist/webpack-numbers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
